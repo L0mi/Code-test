@@ -1,0 +1,70 @@
+#square {
+    width: 200px;
+    height: 200px;
+    background: pink;
+    margin: auto;
+    margin-top: 40px;
+       
+        #Lovebutton{
+            width: 150px;
+            height: 150px;
+            background-color: beige;
+            margin-top: 20px;
+            margin-left: 27px;
+
+                #pressme{
+                    color: rgb(0, 0, 0);
+                    font-size: 20px;
+                    text-align: center;
+                }
+
+         }
+    
+}
+
+ #body2{
+        background-color: lightpink;
+            #h1{
+                color:black;
+                text-align: center;
+                font-size: xx-large;
+            }
+            
+            #h2{
+                color: black;
+                text-align: center;
+                font-size: large;
+            }
+ }
+#cat{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ #heart { 
+    position: relative; 
+    width: 100px; 
+    height: 90px; 
+    margin-left: 870px;
+} 
+
+#heart:before, #heart:after { 
+    position: absolute; 
+    content: ""; 
+    left: 50px; 
+    top: 0; 
+    width: 50px; 
+    height: 80px; 
+    background: red; 
+    border-radius: 50px 50px 0 0; 
+    transform: rotate(-45deg); 
+    transform-origin: 0 100%; 
+} 
+
+#heart:after { 
+    left: 0; 
+    transform: rotate(45deg); 
+    transform-origin :100% 100%; 
+}
